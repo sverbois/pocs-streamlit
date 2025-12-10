@@ -1,0 +1,16 @@
+[project]
+name = "pocs-streamlit"
+version = "1.0.0"
+description = "Quelques petits POCs streamlit"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "plotly>=6.5.0",
+    "streamlit",
+    "streamlit-folium",
+]
+
+[dependency-groups]
+dev = [
+    "watchdog>=6.0.0",
+]
