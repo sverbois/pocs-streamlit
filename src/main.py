@@ -2,12 +2,12 @@ import streamlit as st
 
 # Voir la liste des valeurs "icon" possibles ici : https://fonts.google.com/icons?icon.set=Material+Icons
 
-st.set_page_config(page_title="POCs", layout="wide")
+st.set_page_config(page_title="ProofsOfConcept", layout="wide")
 st.logo(
     """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325 55" role="img" aria-label="Logo">
         <text x="0" y="36" font-size="52" dominant-baseline="middle">😎</text>
-        <text x="75" y="30" font-size="46" font-family="Source Sans, sans-serif" font-weight="500" dominant-baseline="middle">
-            Streamlit
+        <text x="75" y="30" font-size="32" font-family="Source Sans, sans-serif" font-weight="500" dominant-baseline="middle">
+            ProofsOfConcept
         </text>
     </svg>""",
     size="large",
